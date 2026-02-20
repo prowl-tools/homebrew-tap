@@ -13,6 +13,6 @@ class Prowlqa < Formula
   end
 
   test do
-    assert_match "prowlqa", shell_output("#{bin}/prowlqa --version")
+    assert_match version.to_s, shell_output("#{bin}/prowlqa --version")
   end
 end
