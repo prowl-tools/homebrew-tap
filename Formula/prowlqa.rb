@@ -1,8 +1,8 @@
 class Prowlqa < Formula
   desc "CLI-first QA testing tool using Playwright for browser automation"
   homepage "https://prowlqa.com"
-  url "https://registry.npmjs.org/prowlqa/-/prowlqa-1.0.0.tgz"
-  sha256 "be1a08afdd1844bd0728e51a89f1ef4815201aa31f99d2204e50729ac5304b44"
+  url "https://registry.npmjs.org/prowlqa/-/prowlqa-0.1.0.tgz"
+  sha256 "10fb82ab2d5146e6af13141a8cda178dedc2bc09aba5a4d3bbd6bb92cf51b0e6"
   license "Apache-2.0"
 
   depends_on "node@20"
