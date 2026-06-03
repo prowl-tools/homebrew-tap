@@ -1,16 +1,17 @@
-# Prowl-qa Homebrew Tap
+# Prowl Homebrew Tap
 
-Official Homebrew tap for [ProwlQA](https://prowlqa.com) tools.
+Official Homebrew tap for [Prowl](https://prowl.tools) — part of the Prowl suite by Genkei Labs.
 
 ## Install
 
 ```bash
-brew tap prowl-qa/tap
-brew install prowlqa
+brew tap prowl-tools/tap
+brew install prowl
 ```
 
 ## Formulae
 
 | Formula | Description |
 |---------|-------------|
-| `prowlqa` | CLI-first QA testing tool using Playwright |
+| `prowl` | CLI-first end-to-end testing tool using Playwright |
+| `prowlqa` | Deprecated — renamed to `prowl` |
