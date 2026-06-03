@@ -16,9 +16,12 @@ class Prowlqa < Formula
   def install
     system "npm", "install", *std_npm_args
     bin.install_symlink libexec.glob("bin/*")
+    # Back-compat: keep the old `prowlqa` command working as an alias for `prowl`.
+    bin.install_symlink libexec/"bin/prowl" => "prowlqa"
   end
 
   test do
     assert_match version.to_s, shell_output("#{bin}/prowl --version")
+    assert_match version.to_s, shell_output("#{bin}/prowlqa --version")
   end
 end
