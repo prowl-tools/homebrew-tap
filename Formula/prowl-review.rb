@@ -1,11 +1,11 @@
 class ProwlReview < Formula
   desc "BYOK AI code review for pull requests (Claude/OpenAI/Gemini)"
   homepage "https://review.prowl.tools"
-  url "https://registry.npmjs.org/prowl-review/-/prowl-review-0.1.0.tgz"
-  sha256 "f9d9dfd7fd5323e75b11c52d2d4eee3e4eab0cdd364210c99f45a179a6a45bce"
+  url "https://registry.npmjs.org/prowl-review/-/prowl-review-0.2.0.tgz"
+  sha256 "385a9d830b4e495d99188a70883d75b9eaad1c112adde4a201a1296e01267e86"
   license "Apache-2.0"
 
-  depends_on "node@20"
+  depends_on "node@22"
 
   def install
     system "npm", "install", *std_npm_args
