@@ -1,8 +1,8 @@
 class Prowl < Formula
   desc "CLI-first end-to-end testing tool using Playwright for browser automation"
   homepage "https://prowl.tools"
-  url "https://registry.npmjs.org/prowl-tools/-/prowl-tools-0.1.5.tgz"
-  sha256 "3b5eedb91d1c2760ee607393bb933965aed28d54ea85988608df31bc2a9d8b43"
+  url "https://registry.npmjs.org/prowl-tools/-/prowl-tools-0.1.6.tgz"
+  sha256 "6ffd2a580541807e0517271eaec7268aa3fe42c7664a98c4012db01e7ebc451a"
   license "Apache-2.0"
 
   depends_on "node@20"
