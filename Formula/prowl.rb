@@ -1,8 +1,8 @@
 class Prowl < Formula
-  desc "CLI-first end-to-end testing tool using Playwright for browser automation"
+  desc "E2E testing for native macOS apps and web apps from declarative YAML hunts"
   homepage "https://prowl.tools"
-  url "https://registry.npmjs.org/prowl-tools/-/prowl-tools-0.1.6.tgz"
-  sha256 "6ffd2a580541807e0517271eaec7268aa3fe42c7664a98c4012db01e7ebc451a"
+  url "https://registry.npmjs.org/prowl-tools/-/prowl-tools-0.1.7.tgz"
+  sha256 "4d7be4942e261812c6f5aae2b2ea609e90a46f9172510f6925ff85abd5389173"
   license "Apache-2.0"
 
   depends_on "node@20"
